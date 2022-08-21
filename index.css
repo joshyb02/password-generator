@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;800&family=Karla:wght@400;800&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+#card{
+    margin: 20px auto 0 auto;
+    width: 550px;
+    height: 550px;
+    background: #111827;
+    color: white;
+    border-radius: 4px;
+}
+
+#main{
+    padding-top: 115px;
+    padding-left: 52px;
+}
+
+span{
+    color: #38BDF8;
+}
+
+#line{
+    width: 446px;
+    margin-left: 0;
+    height: 1px;
+    background-color: #2F3E53;
+    border: none;
+    margin-top: 20px;
+
+}
+
+#button-el{
+    color: white;
+    background: #38BDF8;
+    padding: 9px 17px 9px 15px;
+    border-radius: 6px;
+    width: 191px;
+    height: 42px;
+    border: none;
+    margin-top: 20px;
+    transition: all 0.5s;
+}
+
+#button-el:hover{
+    transform: scale(1.1);
+    
+}
+
+#p-flex{
+    display: flex;
+}
+
+#never{
+    margin-top: -10px;
+
+}
+
+#pass-one-el, #pass-two-el{
+    border: 1px solid #1F2937;
+    border-radius: 5px;
+    background: #273549;
+    width: 211px;
+    height: 30px;
+    text-align: center;
+    color: #38BDF8;
+    padding-top: 8px;
+    margin-right: 8px;
+    transition: all 0.5s;
+}
+
+#pass-one-el:hover, #pass-two-el:hover{
+    transform: scale(1.1);
+}
+
+#header{
+    width: 354px;
+    height: 80px;
+}
